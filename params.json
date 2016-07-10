@@ -1,0 +1,6 @@
+{
+  "name": "Jstest",
+  "tagline": "",
+  "body": "\r\n<html>\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n  <script>\r\n    function switchName(obj){\r\n\t\t//alert(\"haha\");\r\n\t  if(obj.value==\"没有万来深\"){\r\n\t\t  var button1 = document.getElementById(\"button1\");\r\n\t\t  var button2 = document.getElementById(\"button2\");\r\n\t\t // var var1 = button1.value;\r\n\t\t // var var2 = button2.value;\r\n\t\t  var temp = button1.value;\r\n\t\t  button1.value = button2.value;\r\n\t\t  button2.value = temp;\r\n\t  }\r\n \r\n\t// alert(\"var1 is\"+var1+\"<br>\"+\"var2 is\"+var2+\"<br>\");  \t  \r\n    }\r\n\r\n\r\n\tfunction output(obj){\r\n\t\t//alert(obj.value);\r\n\t\tif(obj.value==\"深不可测\"){\r\n\t\t\talert(\"我走过最长的路就是Eva的套路\");\r\n\t\t}\r\n\t\telse{\r\n\t\t\talert(\"你是怎么选到这个选项的？\");\r\n\t\t}\r\n\t}\r\n\t\r\n  </script>\r\n</head>\r\n<body>\r\n <center>\r\n  <p>你觉得Eva套路深吗？</p><br>\r\n  <span>\r\n  <input type=\"button\" id=\"button1\"  value=\"深不可测\" onMouseOver=\"switchName(this)\" onclick=\"output(this)\">\r\n  &nbsp&nbsp&nbsp&nbsp&nbsp\r\n  <input type=\"button\" id=\"button2\"  value=\"没有万来深\" onMouseOver=\"switchName(this)\" onclick=\"output(this)\">\r\n  </span>\r\n  <br>\r\n </center>\r\n</body>\r\n<html>",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
